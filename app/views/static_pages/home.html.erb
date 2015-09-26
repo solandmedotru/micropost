@@ -1,6 +1,13 @@
-<h1>Micropost</h1>
+<div class="center hero-unit">
+  <h1>Welcome to the Micropost</h1>
 
-<p>Это пробная статическая страница создаена для прохождения теста</p>
-<a href="https://powerful-beyond-2031.herokuapp.com/static_pages/home">Ссылка на страницу в Хероку</a>
+  <h2>
+    This is the home page for the
+    <a href="http://railstutorial.org/">Ruby on Rails Tutorial</a>
+    sample application.
+  </h2>
 
+  <%= link_to "Sign up now!", '#', class: "btn btn-large btn-primary" %>
+</div>
 
+<%= link_to image_tag("rails.png", alt: "Rails"), 'http://rubyonrails.org/' %>
